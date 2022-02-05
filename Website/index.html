@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up  </title>
+    <script src="https://kit.fontawesome.com/26d4a64054.js " crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.min.css"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.7/chosen.jquery.min.js"></script>
+
+    <link rel="stylesheet" href="view.css">
+</head>
+
+<body id="main_body" >
+    
+    <img id="top" src="top.png" alt="">
+    <div id="form_container">
+    
+        <h1><a>Address Entry Nepal</a></h1>
+        <form id="form_107299" class="appnitro"  method="post" action="process.php">
+                    <div class="form_description">
+            <h2>Register your account</h2>
+            <p>Please enter the details correctly!</p>
+        </div>                      
+            <ul >
+                    <li id="li_1" >
+                      <div>
+                
+            <label for="element_1_1"><i class="far fa-address-book"></i>  Username</label>
+            <input id="element_1_1" name="username" class="element text large" placeholder="username" type="text" required>
+            
+        </div>
+              <div>
+            <label for="element_1_1"><i class="fas fa-phone"></i>  Contact</label>
+            <input id="element_1_1" name="contact" class="element text large" placeholder="Number" type="text" required>
+            
+        </div>
+        <div>
+            <label for="element_1_2"><i class="far fa-envelope"></i>  Email</label>
+            <input id="element_1_2" name="email" class="element text large" placeholder="youremail@mail.com" value="" type="email" required>
+            
+        </div>
+    
+
+        <div class="left">
+            <label for="element_1_3"><i class="fas fa-lock"></i>  Password</label>
+            <input id="element_1_3" name="password" class="element text large" placeholder="password" type="password" required>
+                      <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+        </div>
+    
+        <div class="right">
+        <label for="element_1_4"><i class="fas fa-lock"></i>  Confirm Password</label>
+            <input id="element_1_4" name="password1" class="element text large" placeholder="Confirm Password" type="password" required>
+       
+    </div>
+    
+        <div class="checkbox">
+        
+    </div>
+<div class="left">
+                    <li class="buttons">
+                <input type="hidden" name="form_id" value="107299" />
+           <input type="checkbox" required="" /> I agree all <a href="#" class="term-service">Terms of service</a><br/>
+                <br/>
+                <br/>
+                <input id="saveForm" class="button_text btn-basic button" type="submit" name="submit" value="Submit" />
+        </li>
+        <li>
+            <p class="loginhere">
+                        Have already an account ? <a href="login.php" class="loginhere-link">Login here</a>
+                    </p>
+        </li>
+            </ul>
+         </div>    
+            
+    </div>
+    </div>
+    </form>
+    <img id="bottom" src="bottom.png" alt="">
+    </body>
+
+</html>
